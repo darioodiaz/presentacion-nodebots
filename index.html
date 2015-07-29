@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nodebots</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+	<link rel="stylesheet" href="reveal/css/reveal.css">
+	<link rel="stylesheet" href="reveal/css/theme/league.css" id="theme">
+	<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
+</head>
+<body>
+
+	<div class="reveal">
+		<div class="slides">
+
+			<link class="revealSlide" rel="import" href="pages/test.html">
+
+		</div>
+	</div>
+
+	<script>
+		Array.prototype.slice.call( document.querySelectorAll(".revealSlide") ).forEach(function(item) {
+	    	var template = item.import.querySelector('template');
+	    	var clone = document.importNode(template.content, true);
+	    	document.querySelector('.slides').appendChild(clone);
+		});
+    </script>
+	<script src="reveal/lib/js/head.min.js"></script>
+	<script src="reveal/js/reveal.js"></script>
+	<script src="revealConfig.js"></script>
+</body>
+</html>

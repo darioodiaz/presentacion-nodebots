@@ -1,0 +1,25 @@
+{
+  "name": "presentacion-nodebots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darioodiaz/presentacion-nodebots.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darioodiaz/presentacion-nodebots/issues"
+  },
+  "homepage": "https://github.com/darioodiaz/presentacion-nodebots",
+  "dependencies": {
+    "connect": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-webserver": "^0.9.1",
+    "serve-static": "^1.10.0"
+  }
+}
