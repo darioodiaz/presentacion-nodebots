@@ -3,6 +3,7 @@ Reveal.initialize({
 	progress: true,
 	keyboard: true,
 	center: true, 
+	history: true,
 	dependencies: [
 	{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
 	{ src: 'reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
